@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<h1>Login Page</h1><br><br>
+
+<div class="login">
+    <div class="-box">
+        <label htmlFor="roll-number-box">Email</label>
+        <input
+            id="roll-number-box"
+            type="Email">
+        </input>
+
+        <label htmlFor="password-box">Password</label>
+        <input id="password-box" type="password"></input>
+
+        <button className="submit-button">
+            Signin
+        </button>
+
+        <Link>
+            create account?
+        </Link>
+    </div>
+</div>
+
+{%endblock%}
